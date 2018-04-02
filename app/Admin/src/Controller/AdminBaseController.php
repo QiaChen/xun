@@ -4,7 +4,7 @@ use App\Controller\AppController as BaseController;
 use App\Lib\Menu;
 
 
-class AdminController extends BaseController
+class AdminBaseController extends BaseController
 {	
 
 	public function initialize(){

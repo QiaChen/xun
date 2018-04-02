@@ -34,7 +34,7 @@ define('ROOT', dirname(__DIR__));
  * The actual directory name for the application directory. Normally
  * named 'src'.
  */
-define('APP_DIR', 'src');
+define('APP_DIR', 'app/Core');
 
 /**
  * Path to the application's directory.

@@ -12,3 +12,4 @@ Router::plugin(
         $routes->fallbacks(DashedRoute::class);
     }
 );
+

@@ -79,4 +79,5 @@ Router::scope('/', function (RouteBuilder $routes) {
  * Load all plugin routes. See the Plugin documentation on
  * how to customize the loading of plugin routes.
  */
+Router :: connect('/admin/set/system' , [ 'controller'  =>  'Admin', 'action'  =>  'index' ]);
 Plugin::routes();

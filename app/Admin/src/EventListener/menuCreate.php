@@ -19,7 +19,7 @@ class menuCreate implements EventListenerInterface
     }
 
     public function create($event){
-        $indexMenu = new Menu('index','首页','/admin','admin');
+        $indexMenu = new Menu('index','首页','/admin','admin',0);
         $indexMenu->push();
     }
 }
